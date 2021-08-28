@@ -1,0 +1,8 @@
+[Unit]
+Description=Temperature controlled fan
+
+[Service]
+ExecStart=/usr/bin/python /usr/local/bin/fan_control.py
+
+[Install]
+WantedBy=multi-user.target
