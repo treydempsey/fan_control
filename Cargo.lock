@@ -58,6 +58,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "fan_control"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "rppal",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -113,16 +123,6 @@ name = "nb"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "546c37ac5d9e56f55e73b677106873d9d9f5190605e41a856503623648488cae"
-
-[[package]]
-name = "pi-hits-the-fan"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "env_logger",
- "log",
- "rppal",
-]
 
 [[package]]
 name = "regex"
