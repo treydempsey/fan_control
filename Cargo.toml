@@ -1,10 +1,11 @@
 [package]
 name = "fan_control"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2018"
 
 [dependencies]
 anyhow = "1.0"
+clap = "3.0.0-beta.4"
 env_logger = "0.9"
 log = "0.4"
 rppal = { version = "0.12", features = ["hal"] }
