@@ -20,9 +20,9 @@ it is also quite noisy. Using Python code from [here](https://blog.driftking.tw/
     * ```sudo cp target/release/fan_control /usr/local/bin```
 * Install the systemd unit file
     * ```bash
-      sudo cp fan_control.service /lib/systemd/system
-      sudo systemctl enable fan_control
-      sudo systemctl start fan_control
+sudo cp fan_control.service /lib/systemd/system
+sudo systemctl enable fan_control
+sudo systemctl start fan_control
       ````
 
 
