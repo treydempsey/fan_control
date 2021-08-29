@@ -3,7 +3,7 @@ use clap::Clap;
 
 /// Temperature speed control of a 4 pin PWM fan
 #[derive(Clap)]
-#[clap(version = "v0.1.0", author = "Trey Dempsey <trey.dempsey@gmail.com>")]
+#[clap(version = "v0.2.0", author = "Trey Dempsey <trey.dempsey@gmail.com>")]
 pub struct Config {
     /// GPIO/BCM pin number. Defaults to the hardware PWM0 pin. https://pinout.xyz/pinout/pin12_gpio18
     #[clap(short, long, validator = validate_pwm_pin, default_value = "18")]
